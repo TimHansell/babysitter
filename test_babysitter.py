@@ -3,7 +3,8 @@ from babysitter import *
 
 class BabySitterTests( unittest.TestCase ):
     
-    def test_babysitterl( self ):
-        self.assertEqual( babysitter('A', 4, 5 ), 'Start Time too early' ); 
+    def test_babysitter( self ):
+        self.assertEqual( babysitter('A', '4pm', '5pm' ), 'Start Time too early' ); 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()
