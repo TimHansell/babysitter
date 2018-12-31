@@ -1,0 +1,10 @@
+/*
+  Gradle task for the babysitter application
+ */
+
+task test( type:Exec, group: "Tests", description: "Runs the tests" ) {
+    executable "python"
+    args "test_babysitter.py"
+    ignoreExitValue true
+}
+
