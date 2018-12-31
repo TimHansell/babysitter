@@ -1,3 +1,13 @@
+#
+# Initial implementation of prices - hardcoded as a dictionary of lists
+#
+
+families = { 'A': [15,15,15,15,15,15,20,20,20,20,20],
+             'B': [12,12,12,12,12,8,8,16,16,16,16],
+             'C': [21,21,21,21,15,15,15,15,15,15,15] }
+
+def inValidFamily( family ):
+    return families.get(family) == None
 
 def convertTime( time ):
     if time.endswith('pm'):
@@ -12,5 +22,10 @@ def babysitter( starttime, endtime, family ):
         return 'Start Time is invalid'
     elif convertTime(endtime) > 16 or convertTime(endtime) < 6:
         return 'End Time is invalid'
+    elif inValidFamily(family):
+        return 'Family Invalid'
     else:
-        return 'fail'
+        total = 0
+        for i in range(convertTime(starttime), convertTime(endtime)):
+            total = total + families[family][i-5]
+        return total
