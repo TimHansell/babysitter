@@ -9,23 +9,19 @@ families = { 'A': [15,15,15,15,15,15,20,20,20,20,20],
 def inValidFamily( family ):
     return families.get(family) == None
 
-def convertTime( time ):
-    if time.endswith('pm'):
-        return int(time[0:time.find('pm')])
-    elif time.endswith('am'):
-        return int(time[0:time.find('am')]) + 12
-    else:
-        return -1
+timeSlots = [ '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm', '12am', '1am', '2am', '3am', '4am']
 
 def babysitter( starttime, endtime, family ):
-    if convertTime(starttime) <  5 or convertTime(starttime) > 15:
+    if  starttime not in timeSlots or starttime == '4am':
         return 'Start Time is invalid'
-    elif convertTime(endtime) > 16 or convertTime(endtime) < 6:
+    elif endtime not in timeSlots or endtime == '5pm':
         return 'End Time is invalid'
-    elif inValidFamily(family):
+    elif timeSlots.index(starttime) >= timeSlots.index(endtime):
+        return 'Invalid Time Range'
+    elif family not in families:
         return 'Family Invalid'
     else:
         total = 0
-        for i in range(convertTime(starttime), convertTime(endtime)):
-            total = total + families[family][i-5]
+        for i in range(timeSlots.index(starttime), timeSlots.index(endtime)):
+            total = total + families[family][i]
         return total

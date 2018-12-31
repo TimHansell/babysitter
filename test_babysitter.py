@@ -3,17 +3,16 @@ from babysitter import *
 
 class BabySitterTests( unittest.TestCase ):
 
-    def test_convertTimeReturnsNumber(self):
-        self.assertEqual( 5, convertTime('5pm'))
-        self.assertEqual( 16, convertTime('4am'))
-
     def test_babysitterStartTimeIsInvalid(self):
         self.assertEqual( 'Start Time is invalid', babysitter('4pm', '7pm', 'A'))
         self.assertEqual( 'Start Time is invalid', babysitter('5am', '7am', 'B'))
 
     def test_babysitterEndTimeIsInvalid(self):
         self.assertEqual( 'End Time is invalid', babysitter('5pm', '5am', 'A'))
-        self.assertEqual( 'End Time is invalid', babysitter('6pm', '5pm', 'C'))
+        self.assertEqual( 'End Time is invalid', babysitter('6pm', '10am', 'C'))
+
+    def test_babysitterInvalidTimeRange(self):
+        self.assertEqual( 'Invalid Time Range', babysitter( '10pm', '9pm', 'A'))
 
     def test_babysitterFamilyIsInvalid(self):
         self.assertEqual( 'Family Invalid', babysitter('5pm', '10pm', 'D'))
