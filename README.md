@@ -1,4 +1,4 @@
-#My Solution the Babysitter Kata
+# My Solution the Babysitter Kata
 
 ## Background
 Read the Babysitter.Problem-Statement.README.md to see the
