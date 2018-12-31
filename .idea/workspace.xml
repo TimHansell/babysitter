@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="104d2843-1bca-4e79-be3c-fc74dc23f92a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babysitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/babysitter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_babysitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_babysitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_babysitter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="225">
+              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -27,11 +25,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/babysitter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Babysitter.Problem-Statement.README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -46,6 +66,7 @@
       <list>
         <option value="$PROJECT_DIR$/test_babysitter.py" />
         <option value="$PROJECT_DIR$/babysitter.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -152,27 +173,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_babysitter_py - 2018.12.31 at 10h 10m 44s.xml">
-      <configuration name="Unittests in test_babysitter.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_babysitter_py - 2018.12.31 at 10h 11m 53s.xml">
-      <configuration name="Unittests in test_babysitter.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_babysitter_py - 2018.12.31 at 10h 12m 26s.xml">
-      <configuration name="Unittests in test_babysitter.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_babysitter_py - 2018.12.31 at 10h 14m 03s.xml">
-      <configuration name="Unittests in test_babysitter.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_babysitter_py - 2018.12.31 at 10h 14m 35s.xml">
-      <configuration name="Unittests in test_babysitter.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_babysitter_py - 2018.12.31 at 10h 15m 57s.xml">
-      <configuration name="Unittests in test_babysitter.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_babysitter_py - 2018.12.31 at 10h 16m 33s.xml">
-      <configuration name="Unittests in test_babysitter.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_babysitter_py - 2018.12.31 at 10h 16m 48s.xml">
       <configuration name="Unittests in test_babysitter.py" configurationId="tests" />
     </history-entry>
@@ -182,21 +182,42 @@
     <history-entry file="Unittests_in_test_babysitter_py - 2018.12.31 at 13h 29m 33s.xml">
       <configuration name="Unittests in test_babysitter.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_babysitter_py - 2018.12.31 at 13h 31m 24s.xml">
+      <configuration name="Unittests in test_babysitter.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_babysitter_py - 2018.12.31 at 13h 31m 45s.xml">
+      <configuration name="Unittests in test_babysitter.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_babysitter_py - 2018.12.31 at 13h 33m 05s.xml">
+      <configuration name="Unittests in test_babysitter.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_babysitter_py - 2018.12.31 at 13h 33m 43s.xml">
+      <configuration name="Unittests in test_babysitter.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_babysitter_py - 2018.12.31 at 13h 37m 57s.xml">
+      <configuration name="Unittests in test_babysitter.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_babysitter_py - 2018.12.31 at 13h 41m 46s.xml">
+      <configuration name="Unittests in test_babysitter.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_babysitter_py - 2018.12.31 at 13h 43m 32s.xml">
+      <configuration name="Unittests in test_babysitter.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="758" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32882884" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32882884" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32882884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32882884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -211,8 +232,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test_babysitter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="225">
+          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -221,8 +242,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/babysitter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Babysitter.Problem-Statement.README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

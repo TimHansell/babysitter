@@ -7,7 +7,7 @@ def convertTime( time ):
     else:
         return -1
 
-def babysitter( family, starttime, endtime ):
+def babysitter( starttime, endtime, family ):
     if convertTime(starttime) <  5 or convertTime(starttime) > 15:
         return 'Start Time is invalid'
     elif convertTime(endtime) > 16 or convertTime(endtime) < 6:

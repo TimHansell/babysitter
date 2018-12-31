@@ -8,12 +8,12 @@ class BabySitterTests( unittest.TestCase ):
         self.assertEqual( 16, convertTime('4am'))
 
     def test_babysitterStartTimeIsInvalid(self):
-        self.assertEqual( 'Start Time is invalid', babysitter('A', '4pm', '7pm'))
-        self.assertEqual( 'Start Time is invalid', babysitter('A', '5am', '7am'))
+        self.assertEqual( 'Start Time is invalid', babysitter('4pm', '7pm', 'A'))
+        self.assertEqual( 'Start Time is invalid', babysitter('5am', '7am', 'B'))
 
     def test_babysitterEndTimeIsInvalid(self):
-        self.assertEqual( 'End Time is invalid', babysitter('A', '5pm', '5am'))
-        self.assertEqual( 'End Time is invalid', babysitter('A', '6pm', '5pm'))
+        self.assertEqual( 'End Time is invalid', babysitter('5pm', '5am', 'A'))
+        self.assertEqual( 'End Time is invalid', babysitter('6pm', '5pm', 'C'))
 
 if __name__ == '__main__':
     unittest.main()
