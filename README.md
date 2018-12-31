@@ -8,3 +8,20 @@ This is my attempt at solving the Kata using Python 2.7.
 I am also using gradle to provide some simple tasks for
 running the tests and various things with the simple application.
 
+## Running the tests
+You can run the tests by executing 
+
+```bash
+foo@bar:~$ python test_babysitter.py
+```
+
+or
+
+``` 
+foo@bar:~$ gradlew test
+```
+
+## Potential Enhancements
+The program could be enhanced by adding an API for defining families and their priceing structure.
+
+Also including a way to redefine the babysitting hour range, rather than have it hard coded.

@@ -1,13 +1,19 @@
 #
 # Initial implementation of prices - hardcoded as a dictionary of lists
 #
-
 families = { 'A': [15,15,15,15,15,15,20,20,20,20,20],
              'B': [12,12,12,12,12,8,8,16,16,16,16],
              'C': [21,21,21,21,15,15,15,15,15,15,15] }
 
+#
+# Hardcoded implementation of the one hour time slots for babysitting
+#
 timeSlots = [ '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm', '12am', '1am', '2am', '3am', '4am']
 
+#
+# the babysitter function takes a starttime and endtime as strings in the form ##am or ##pm
+# and a family name as a string (currently 'A' 'B' 'C' are the hardcoded families
+#
 def babysitter( starttime, endtime, family ):
     if  starttime not in timeSlots or starttime == '4am':
         return 'Start Time is invalid'
