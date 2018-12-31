@@ -1,6 +1,11 @@
+# Ignore compiled pythong files
+*.pyc
+
+# Ignore the intellij project files
+.idea/
+
 # Ignore Gradle project-specific cache directory
 .gradle
-*.pyc
 
 # Ignore Gradle build output directory
 build
