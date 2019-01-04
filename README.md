@@ -22,6 +22,4 @@ foo@bar:~$ gradlew test
 ```
 
 ## Potential Enhancements
-The program could be enhanced by adding an API for defining families and their priceing structure.
-
-Also including a way to redefine the babysitting hour range, rather than have it hard coded.
+Including a way to redefine the babysitting hour range, rather than have it hard coded.
