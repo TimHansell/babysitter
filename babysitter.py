@@ -38,22 +38,22 @@ class FamilyRate(object):
         else:
             return 0
 
-families = {}
-families['A'] = FamilyRate(20)
-families['A'].setRateRange('5pm', '11pm', 15)
-
-families['B'] = FamilyRate(16)
-families['B'].setRateRange('5pm', '10pm', 12)
-families['B'].setRateRange('10pm', '12am', 8)
-
-families['C'] = FamilyRate(15)
-families['C'].setRateRange('5pm','9pm',21)
-
 #
 # the babysitter function takes a starttime and endtime as strings in the form ##am or ##pm
 # and a family name as a string (currently 'A' 'B' 'C' are the hardcoded families
 #
 def babysitter( starttime, endtime, family ):
+    families = {}
+    families['A'] = FamilyRate(20)
+    families['A'].setRateRange('5pm', '11pm', 15)
+
+    families['B'] = FamilyRate(16)
+    families['B'].setRateRange('5pm', '10pm', 12)
+    families['B'].setRateRange('10pm', '12am', 8)
+
+    families['C'] = FamilyRate(15)
+    families['C'].setRateRange('5pm', '9pm', 21)
+
     if  not validTimeSlot(starttime):
         return 'Start Time is invalid'
     elif not validTimeSlot(endtime):

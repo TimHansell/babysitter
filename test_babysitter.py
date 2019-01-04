@@ -6,6 +6,9 @@ class BabySitterTests( unittest.TestCase ):
     def test_FamilyRates(self):
         rateA = FamilyRate(10);
         self.assertEqual(10, rateA.getRate( '5pm' ))
+        rateA.setRateRange( '5pm', '10pm',15)
+        self.assertEqual(15, rateA.getRate('6pm'))
+        self.assertEqual(10, rateA.getRate('10pm'))
 
     def test_babysitterStartTimeIsInvalid(self):
         self.assertEqual( 'Start Time is invalid', babysitter('4pm', '7pm', 'A'))
